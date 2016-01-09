@@ -1,0 +1,241 @@
+@CHARSET "ISO-8859-1";
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 100%;
+	height: 700px;
+}
+
+#nav{
+	float: left;
+	width: 15%;
+	height: 100%;
+	border-right: inset 1px teal;
+}
+
+#cartEmpty{
+	margin-left: 45px;
+	color: gray;
+	font-family: sans-serif;
+}
+
+#nav ul{
+	padding-left: 10px;
+}
+
+#nav ul li{
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+#nav ul li a{
+	font-family: monospace;
+	font-size: 18px;
+	padding-left:10px;
+	color: teal;
+	text-decoration: none;
+	display: block;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#nav ul a:hover{
+	background-color: teal;
+	color: white;
+}
+
+#books{
+	width:70%;
+	height: 90%;
+	margin-left: 15%;
+}
+
+#picture{
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+#listOfBooks{
+	width: 40%;
+	float: left;
+	font-family: monospace;
+	border-bottom: 1px teal inset;
+	border-right: 1px teal inset;
+}
+
+#listOfInfo{
+	list-style: none;
+	margin-left: -35px;
+		
+}
+
+#listOfInfo li{
+	padding-top: 8px;
+}
+
+#teal{
+	color: teal;
+}
+
+#listOfBooks #reviewA{
+	text-decoration: none;
+	padding: 3px;
+	color: teal;
+	color: white;
+	background-color: teal;
+	border-radius: 8px;
+	border-color: teal;
+	opacity: 0.7;
+}
+
+#pages{
+	width: 100%;
+	float: left;
+	margin-top: -40px;
+	padding-left: 320px;
+}
+
+#pages p{
+	font-size: 12px;
+	color: teal;
+	padding-left: 110px;
+}
+
+#books #listOfBooks #picture img{
+	width: 135px;
+	height: 190px;
+}
+
+#pages a{
+	padding: 5px;
+	color: teal;
+	text-decoration: none;
+	
+}
+
+
+#pages a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#addToCart{	
+	text-decoration: none;
+	padding: 3px;
+	color: teal;
+	color: white;
+	background-color: teal;
+	border-radius: 8px;
+	border-color: teal;
+	margin-top: 10px;
+}
+
+#ofc{
+	margin-top: -13px;
+	text-decoration: none;
+	color: teal;
+	color: gray;
+	border-color: teal;
+}
+
+#addToCart:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#listOfBooks #reviewA:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	opacity: 1;
+}
+
+
+#h1books{
+	color: gray;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#cart{
+	width: 20%;
+	margin-left: 75%;
+	height: 50%;
+	margin-top: -630px;
+}
+
+#cart img{
+	width: 200px;
+	height: 150px;
+	border-bottom: 1px teal inset;
+}
+
+#cart ul{
+	padding-top: 15px;
+	color: teal;
+}
+
+#cart li{
+	padding-top: 10px;
+	color: teal;
+}
+
+#cart li #reviewA{
+	color: teal;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-decoration: none;
+	
+}
+
+#cart li #reviewA:hover{
+	text-decoration: underline;
+}
+
+#cart #buyNow{
+	padding: 3px;
+	font-size: 22px;
+	color: white;
+	background-color: teal;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 35px;
+	margin-left: 65px;
+	opacity: 0.7;
+}
+
+#cart #buyNow:hover{
+	text-decoration: underline;
+	opacity: 1;
+}
+
+#deleteX{
+	padding: 2px;
+	font-size: 15px;
+	color: white;
+	background-color: teal;
+	border-radius: 35px;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 15px;
+}
+
+#deleteX:hover{
+	color: red;
+}
+
+
+#tPrice{
+	margin-left: 45px;
+	margin-right: 66px;
+	border: 2px teal inset;	
+	text-align: center;
+}
+
+

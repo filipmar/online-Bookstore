@@ -1,0 +1,161 @@
+@CHARSET "ISO-8859-1";
+
+
+@CHARSET "ISO-8859-1";
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 100%;
+	height: 450px;
+	overflow:hidden;
+}
+
+#navigationMenu{
+	float:left;
+	width: 250px;
+	height: 100%;
+	border-right: 1px teal dotted;
+}
+
+#navigationMenu ul{
+	list-style: circle;
+}
+
+#navigationMenu ul li{
+	font-family: sans-serif;
+	padding-top:5px;
+	font-size: 16px;
+}
+
+
+#navigationMenu ul a{
+	color: teal;
+	text-decoration: none;
+}
+
+#navigationMenu ul a:hover{
+	text-decoration: underline;
+}
+
+.tealColor{
+	color: teal;
+}
+
+#infoOfUser{
+	float:right;
+	width: 20%;
+	height: 100%;
+	border-left: 1px teal dotted;
+	left: 100%;
+	position: static;
+	margin-top: -461px;
+}
+
+#infoOfUser ul{
+	margin-left: 15px;
+}
+
+#infoOfUser ul li{
+	padding-top: 5px;
+	list-style: none;
+}
+
+#infoOfUser ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: teal;
+}
+
+#infoOfUser ul li a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+#infoOfUser ul li:last-child{
+	list-style: none;
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+#bookList{
+	width: 60%;
+	margin-left: 18%;
+	height: 100%;
+}
+
+#tableBooks tr{
+	padding-top: 5px;
+}
+
+#tableBooks tr td{
+	padding-left: 55px;
+	border-bottom: 1px teal dashed;
+}
+
+#update{
+	padding-right: 20px;
+}
+
+#delete{
+	padding-right: 50px;
+}
+
+#tableBooks a{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: teal;
+	text-decoration: none;
+}
+
+#tableBooks a:hover{
+	text-decoration: underline;
+}
+
+#bookList #addNewBookForm{
+	margin-left: 50px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#bookList #addNewBookForm input{
+	width: 160px;
+	height: 25px;
+	margin-top: 20px;
+	text-indent: 2px;
+}
+
+#bookList #addNewBookForm label{
+	color: teal;
+	padding-left: 20px;
+}
+
+#submitBUtton{
+	font-family:monospace;
+	font-size:18px;
+	color: teal;
+	height: 30px;
+	margin-left: 265px;
+	margin-bottom: -20px;
+}
+
+#submitBUtton:hover{
+	background-color: teal;
+	color: white;
+	cursor: pointer;
+}
+
+#uploatButton{
+	margin-left: 5px;
+}
+
+#uploatButton:hover{
+	cursor: pointer;
+}
+
+

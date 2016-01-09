@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#container #infoForPurchaser{
+	background-color: #7AF3E7;
+	width: 500px;
+	height: 220px;
+	border-radius: 20px;
+	margin: 0 auto;
+	letter-spacing: 3px;
+	font-family: sans-serif;
+	margin-top: 70px;
+}
+
+#container #infoForPurchaser ul{
+	margin: 0 auto;
+}
+
+#container #infoForPurchaser ul li{
+	padding-top: 10px;
+	border: teal;
+	list-style: none;
+}
+
+#loginButton{
+	background-color: teal;
+	color: white;
+	width: 130px;
+	height: 35px;
+	border-radius: 10px;
+}
+
+#buttonTd{
+	margin-left: 240px;
+	margin-top: -90px;
+}
+
+
+#loginButton:hover{
+	cursor: ponter;
+}

@@ -1,0 +1,156 @@
+@CHARSET "ISO-8859-1";
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	opacity: 0.7; 
+	width: 45%;
+	margin: 0 auto;
+	height: 640px;
+	border-radius: 25px;
+}
+
+#container p{
+	font-size: 22px;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 5px;
+	color: teal;
+}
+
+#dialog{
+	display: none;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+#orderLi{
+	margin-top: 30px;
+}
+
+#orderButton:hover{
+	cursor: pointer;
+}
+
+
+#container .inputLi{
+	border-color: teal;
+	border-radius: 6px;
+	letter-spacing: 3px;
+	height: 35px;
+	width: 155px;
+	background: #C0FAF4;
+}
+
+#orderButton{
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color: teal;
+	color: white;
+	border-radius: 10px;
+}
+
+#infoForPurchaser{
+	text-align:center;
+	margin-top: 15px;
+}
+
+#infoForPurchaser ul{
+	list-style: none;
+	margin-left: -40px;
+}
+
+#infoForPurchaser input{
+	margin-top: 25px;
+}
+
+#orderDetails{
+	background: #C0FAF4;
+	opacity: 0.7;
+	float:right;
+	margin-top: -550px;
+	margin-right: 50px;
+	text-align: justify;
+	color: teal;
+	font-size: 18px;
+	font-family: sans-serif;
+	border-radius: 25px;
+	padding-right: 5px;
+	width: 280px;
+}
+
+#orderDetails li{
+	margin-top: 15px;
+}
+
+#tprice{
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+#orderDetails a{
+	color: teal;
+	text-decoration: none;
+}
+
+#orderDetails a:hover{
+	text-decoration: underline;
+}
+
+.dialog,
+.dialog__overlay {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.dialog {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.dialog__overlay {
+	position: absolute;
+	z-index: 1;
+	background: rgba(55, 58, 71, 0.9);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.dialog--open .dialog__overlay {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.dialog__content {
+	width: 50%;
+	max-width: 560px;
+	min-width: 290px;
+	background: #fff;
+	padding: 4em;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	opacity: 0;
+}
+
+.dialog--open .dialog__content {
+	pointer-events: auto;
+}
+
+/* Content */
+.dialog h2 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 2em;
+	padding: 0 0 2em;
+	margin: 0;
+}
